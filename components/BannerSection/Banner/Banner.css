@@ -1,0 +1,28 @@
+/* Slide in from right */
+@keyframes slideIn {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  /* Slide out to left */
+  @keyframes slideOut {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .slide-in {
+    animation: slideIn 0.5s forwards;
+  }
+  
+  .slide-out {
+    animation: slideOut 0.5s forwards;
+  }
+  

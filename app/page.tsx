@@ -1,9 +1,12 @@
-import Image from "next/image";
+"use client"
+import Banner from "@/components/BannerSection/Banner/Banner";
+import MainContext from "@/context/MasterContext";
+
 
 export default function Home() {
   return (
-  <div>hello
-    
-  </div>
+  <MainContext>
+    <Banner />
+  </MainContext>
   );
 }
